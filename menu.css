@@ -1,0 +1,88 @@
+/* #cabecalho{
+    background-repeat: no-repeat;
+    background-color: blue;
+} */
+
+p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #6c757d!important;
+}
+
+header{
+    height: 200px;
+    background-image: url(nave5.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    background-position: center;
+}
+.form-check-label{
+    color: #6c757d!important;
+}
+
+.form-label {
+    color: #6c757d!important;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: right;
+    
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px ;
+    font-size: 1.2rem;
+    display: inline-block;
+    
+}
+
+#menu ul li a:hover{
+    background-color: blueviolet;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+.visitar img {
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom right, #faf796, #eb9f9f, #5d5d77);
+    font-size: 1.3rem;
+    height: 100px;
+}
+
+footer {
+    background: linear-gradient(to bottom right, #faf796, #eb9f9f, #5d5d77);
+    color: rgb(242, 12, 12);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 300px;
+}
+
+#rodape li {
+    margin: 0px;
+    list-style: none;
+    display: inline;
+    text-align: right;
+    padding: 30px;
+    display: inline-block;
+    color: white;
+    
+}

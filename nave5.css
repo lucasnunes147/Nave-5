@@ -1,0 +1,143 @@
+*{margin: 0;}
+
+#container{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas:
+    "cabecalho"
+    "empresa"
+    "evento"
+    "portifolio"
+    "cadastro"
+    "mapa"
+    "rodape";
+    grid-template-rows: 200px 100vh 100vh 100vh 50vh 50vh 70vh 600px;
+       
+}
+*{margin: 0;}
+#cabecalho { border: 1px solid #ffffff;
+    grid-area: cabecalho;
+    /* background-image: url(nave5.jpg); background-repeat: no-repeat;background-position: left top; background-size: 100%; background-position: center; font-size: 25px; border-radius: 10px; */
+   /* border-bottom: #000000; */
+}
+#cabecalho ul { 
+    list-style: none;
+    position: fixed; bottom:1; opacity: 0.7;
+    /* background-image:url(logo-topo.webp); background-repeat:no-repeat ; background-size: 85px;background-position: left top; */
+    padding-right: 3cm;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    list-style: none;
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    
+    
+}
+#cabecalho ul li{ 
+    display: inline;
+    text-align: center;
+    color: #000000;
+}
+#cabecalho ul li a:hover {
+    background-color: #F08080;
+    font-size: 1.2rem;
+    color: #000000 ;
+  
+}
+#cabecalho ul li a {
+    color: #F08080(0, 0, 0);
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+}
+footer img {
+
+    width: 150px;
+}
+
+footer {
+    /*background: linear-gradient(to bottom right, #faf796, #eb9f9f, #5d5d77); */
+    background-size: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 300px;
+}
+footer{
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom right, #faf796, #eb9f9f, #5d5d77);
+    font-size: 1.3rem;
+    height: 100%;
+   
+}
+
+#fim {
+    background-color:rgb(255, 255, 255) ;
+    color: black;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline; 
+}
+
+
+a:visited {
+    color: transparent; 
+}
+
+#visitar {
+    line-height: 90%; }
+
+#visitar img {
+    width: 30px;
+    height: 30px;
+}
+iframe {
+    width: 500px;
+    height: 300px;
+}
+
+#map {
+    background-color: #f30000;
+}
+
+.Fale {
+    margin: auto;
+
+} 
+ .faleconosco {
+    text-align: 100px;
+ }
+
+#Clientes {
+background-image: url(LOGOS.png); background-repeat: no-repeat;background-position: center; background-size: 60%;
+text-align: center;
+}
+
+.fw-light{
+    text-align: center;
+}
+
+#fim {
+    background-color: #000000;
+    color: white;
+}
+
+span{
+    color: red;
+    font-size: 0.8rem;
+}
